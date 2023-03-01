@@ -33,12 +33,17 @@ body {
     background-color: brown;
     border-color: brown;
   }
+
+  .bottom-line{
+    margin-top:25px;
+  }
   h1,h2 { font-family: impact,serif; }
   
   .item p {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 18px;
   }
   
   .flavor, .dessert {
@@ -49,4 +54,22 @@ body {
   .price {
     text-align: right;
     width: 25%;
+  }
+
+  /* FOOTER */
+
+  footer{
+    font-size: 14px;
+  }
+  a {
+    color: black;
+  }
+  a:visited {
+    color: grey;
+  }
+  a:hover{
+    color: brown;
+  }
+  a:active{
+    color:white;
   }
