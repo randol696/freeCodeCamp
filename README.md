@@ -1,1 +1,2 @@
 # freeCodeCamp
+*[Insignias](#insignias)
