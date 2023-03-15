@@ -143,6 +143,7 @@ const entreeValue = testObj["an entree"];   // Change this line
 const drinkValue = testObj["the drink"];  
 ------------
 ------
+------
 // Setup
 const testObj = {
   12: "Namath",
@@ -151,7 +152,21 @@ const testObj = {
 };
 
 // Only change code below this line
-const playerNumber = 16;  // Change this line
-const player = testObj[playerNumber];   
+const playerNumber = 16;  // Change this
+ line
+const player = testbj[playerNumber];   
+---------------------// Setup Since he's a particularly happy dog, let's change his name to the string Happy Camper. Here's how we update his object's name property: ourDog.name = "Happy Camper"; or ourDog["name"] = "Happy Camper"; Now when we evaluate ourDog.name, instead of getting Camper, we'll get his new name, Happy Camper.
+
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line
+//ourDog.name = "Happy Camper"; 
+// or ourDog["name"] = "Happy Camper" 
+myDog["name"] = "Happy Coder"
 
 console.log(player)
