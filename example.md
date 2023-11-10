@@ -1,5 +1,5 @@
 
-
+This is an example what I used for my Javascript certification preparation
 
 But first, let's cover some functional terminology:
 
