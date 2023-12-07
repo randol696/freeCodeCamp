@@ -1,4 +1,4 @@
-/* This Code has been create by: Randol */
+/* This Code has been create by: Randol a*/
 class Fruits extends React.Component {
   constructor(props) {
     super(props);
