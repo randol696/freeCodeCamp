@@ -1,0 +1,182 @@
+.gg-coffee {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 18px;
+  height: 14px;
+  border: 2px solid;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-left: -4px;
+  margin-top: 3px;
+}
+.gg-coffee::after,
+.gg-coffee::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+}
+.gg-coffee::before {
+  left: 2px;
+  background: currentColor;
+  box-shadow: 4px 0 0, 8px 0 0;
+  border-radius: 3px;
+  width: 2px;
+  height: 4px;
+  top: -7px;
+}
+.gg-coffee::after {
+  width: 6px;
+  height: 8px;
+  border: 2px solid;
+  border-radius: 100px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  right: -6px;
+  top: -1px;
+}
+
+/*--------facebook Icon-------*/
+.gg-facebook {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 20px;
+  height: 20px;
+}
+
+.gg-facebook::after,
+.gg-facebook::before {
+  content: "";
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.gg-facebook::before {
+  width: 8px;
+  height: 20px;
+  border-left: 4px solid;
+  border-top: 4px solid;
+  border-top-left-radius: 5px;
+  left: 6px;
+}
+
+.gg-facebook::after {
+  width: 10px;
+  height: 4px;
+  background: currentColor;
+  top: 7px;
+  left: 4px;
+  transform: skew(-5deg);
+}
+/*--------git----*/
+.gg-git-fork {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 2px;
+  height: 14px;
+  background: currentColor;
+}
+
+.gg-git-fork::after,
+.gg-git-fork::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.gg-git-fork::before {
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  border-bottom-right-radius: 4px;
+  bottom: 4px;
+  width: 8px;
+  height: 6px;
+  left: 0;
+}
+
+.gg-git-fork::after {
+  width: 4px;
+  height: 4px;
+  background: currentColor;
+  box-shadow: 0 12px 0 0, 6px 2px 0 0;
+  border-radius: 100%;
+  left: -1px;
+  top: -1px;
+}
+/*--Mail --*/
+.gg-mail,
+.gg-mail::after {
+  display: block;
+  box-sizing: border-box;
+  height: 14px;
+  border: 2px solid;
+}
+
+.gg-mail {
+  overflow: hidden;
+  transform: scale(var(--ggs, 1));
+  position: relative;
+  width: 18px;
+  border-radius: 2px;
+}
+
+.gg-mail::after {
+  content: "";
+  position: absolute;
+  border-radius: 3px;
+  width: 14px;
+  transform: rotate(-45deg);
+  bottom: 3px;
+  left: 0;
+}
+/*---Phone ----*/
+.gg-smartphone {
+  background:
+  linear-gradient(to left,
+  currentColor 5px,transparent 0)
+  no-repeat 4px 12px/2px 2px;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 14px;
+  height: 20px;
+  border: 2px solid;
+  border-radius: 2px;
+  } 
+/*--- Search ---*/
+.gg-search {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  border-radius: 100%;
+  margin-left: -4px;
+  margin-top: -4px
+ }
+ 
+ .gg-search::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 3px;
+  width: 2px;
+  height: 8px;
+  background: currentColor;
+  transform: rotate(-45deg);
+  top: 10px;
+  left: 12px
+ } 

@@ -1,0 +1,188 @@
+body {
+  font-family: Tahoma, "Segoe UI";
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #e1e3ff;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#header-img {
+  display: block;
+  align-items: center;
+  /*background-color: blue; */
+  width: 250px;
+  height: auto;
+  margin-top: 10px;
+}
+#logo-left {
+  float: left;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav > ul > li {
+  float: right;
+  text-decoration: none;
+}
+
+li > a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  margin-top: -15px;
+}
+
+.center-items {
+  display: block;
+  margin: 10px auto;
+}
+section {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.contact h1,
+form {
+  text-align: center;
+}
+
+#submit {
+  display: block;
+  margin: 10px auto;
+  background-color: #f1c50f;
+  border: 0;
+  height: 25px;
+  width: 150px;
+}
+.feature li {
+  width: 90%;
+  margin: 10px auto;
+}
+#video {
+  width: 60%;
+  height: 350px;
+}
+
+/* Pricing Section */
+#pricing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.price-detail {
+  border: 1px solid;
+  width: 300px;
+  height: 280px;
+  margin: 10px;
+}
+
+#pricing h2 {
+  margin-top: 0;
+  padding-top: 20px;
+  width: 100%;
+  height: 40px;
+  background-color: #e1e3e1;
+}
+
+/* Footer */
+footer {
+  display: block;
+  width: 90%;
+  margin: auto;
+  background-color: #e1e3e1;
+  height: 70px;
+  text-align: right;
+}
+footer nav {
+  list-style: none;
+  width: 100%;
+  height: 1.5rem;
+}
+footer ul {
+  width: 100%;
+  margin-right: 25px;
+}
+footer li {
+  height: 20px;
+  /*margin-top: 25px; */
+}
+footer a {
+  margin: 0 auto;
+  color: black;
+  margin-top: 10px;
+}
+
+footer span {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+button {
+  display: block;
+  margin: 15px auto;
+  border: 0px;
+  width: 100px;
+  height: 50px;
+  background-color: #f1c50f;
+}
+@media only screen and (max-width: 650px) {
+  #header-img {
+    display: block;
+    align-items: center;
+    width: 50%;
+    margin: 10px auto;
+  }
+  header {
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    height: 10rem;
+    background: linear-gradient(80deg, #f1f3c4, #bcb1f1);
+  }
+  header nav {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  header li {
+    display: block;
+    width: 100%;
+    height: 15px;
+    padding: 10px 2px;
+    text-align: center;
+  }
+  header a {
+    margin: 1px 0;
+  }
+  body {
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid black;
+  }
+  #video {
+    width: 100%;
+  }
+  #pricing {
+    display: block;
+    width: 100%;
+  }
+  .price-detail {
+    margin: 10px auto;
+    width: 90%;
+  }
+}
